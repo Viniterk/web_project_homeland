@@ -1,0 +1,29 @@
+.content__title{
+    font-family: Inter;
+    font-weight: 900;
+    color: white;
+    font-size: 96px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 720;
+    height: 200;
+    top: 194px;
+    left: 280px;
+    opacity: 1;
+}
+
+.content__subtitle{
+    width: 720;
+    height: 72;
+    top: 426px;
+    left: 280px;
+    opacity: 1;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
