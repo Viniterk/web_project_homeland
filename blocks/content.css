@@ -6,18 +6,13 @@
     line-height: 100px;
     letter-spacing: 0%;
     text-align: center;
-    width: 720;
-    height: 200;
-    top: 194px;
-    left: 280px;
     opacity: 1;
+    margin-bottom: 32px;
+    font-weight: bold;
 }
 
 .content__subtitle{
-    width: 720;
-    height: 72;
-    top: 426px;
-    left: 280px;
+    margin-bottom: 64px;
     opacity: 1;
     font-family: Inter;
     font-weight: 400;
@@ -26,4 +21,15 @@
     letter-spacing: 0%;
     text-align: center;
     color: white;
+}
+
+.content__image{
+    display: flex;
+    max-width: 50%;
+    margin: 0 auto;
+    width: 984;
+    height: 615;
+    top: 562px;
+    left: 148px;
+    opacity: 1;
 }
