@@ -5,4 +5,5 @@ display: flex;
 .header__logo{
     margin: 0 auto;
     margin-top: 34px;
+    max-width: 720px;
 }
