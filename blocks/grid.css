@@ -2,10 +2,11 @@
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 16px;
     padding-right: 48px;
     padding-left: 48px;
+    margin-bottom: 92px;
 }
 
 .photo-grid__item{
