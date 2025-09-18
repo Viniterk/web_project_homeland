@@ -86,6 +86,7 @@
     padding-bottom: 13px;
     padding-left: 20px;
     gap: 10px;
+    
 
     color: white;
     font-weight: 600;
@@ -94,31 +95,21 @@
 }
 
 @media (max-width: 768px){
-    .places{
-        max-width: 720px;
-    }
 
     .place{
-        max-width: 720px;
+        grid-template-columns: 340px auto;
+        
     }
 
     .place__title{
-        max-width: 340px;
         font-weight: 900;
         font-size: 42px;
         line-height: 46px;
     }
 
-    .place__img{
-        max-width: 340px;
-    }
 
-    .place__artists{
-        max-width: 352;
-    }
 
     .place__artist-heading{
-        max-width: 58px;
         font-weight: 400;
         font-size: 12px;
         line-height: 100%;
@@ -126,67 +117,71 @@
     }
 
     .place__artist-name{
-        max-width: 352px;
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
     }
 
     .place__paragraph{
-        max-width: 193px;
         font-weight: 400;
         font-size: 18px;
         line-height: 163%;
-        text-align: center;
     }
 
 }
 
-@media (max-width: 320px){
-    .places{
-        max-width: 320px;
-    }
+@media (max-width: 544px){
 
     .place{
-        max-width: 320px;
+        grid-template-columns: auto;
+        grid-template-areas: 
+    "title"
+    "artists"
+    "img"
+    "paragraph"
+    "paragraph"
+    "button";
     }
 
     .place__title{
-        max-width: 288px;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
+        padding-left: 16px;
+        padding-right: 16px;
 
-    }
-
-    .place__img{
-        max-width: 340px;
     }
 
     .place__artists{
-        max-width: 320px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .place__artist-heading{
-        max-width: 288px;
         font-weight: 400;
         font-size: 12px;
         line-height: 100%;
         text-transform: uppercase;
+        
     }
 
     .place__artist-name{
-        max-width: 288px;
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
     }
 
     .place__paragraph{
-        max-width: 288px;
         font-weight: 400;
         font-size: 16px;
         line-height: 163%;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .place__button{
+        max-width: 288px;
+        margin: 0 auto;
     }
 
 }

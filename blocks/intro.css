@@ -42,51 +42,53 @@
 }
 
  @media (max-width: 768px){
+        .intro{
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
         .intro__title{
-            max-width: 707px;
             font-size: 45px;
             line-height: 49px;
         }
         .intro__description{
-            max-width: 400px;
             font-size: 24px;
             line-height: 34px;
         }
 
         .intro__author{
-            max-width: 400px;
             font-size: 24px;
             line-height: 34px;
         }
 
         .intro__paragraph{
-            max-width: 400px;
             font-size: 16px;
             line-height: 163%;
         }
     }
 
-    @media (max-width: 320px){
+    @media (max-width: 544px){
+        .intro{
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
         .intro__title{
-            max-width: 288px;
             font-size: 32px;
             line-height: 35px;
         }
 
         .intro__description{
-            max-width: 288px;
             line-height: 30px;
             font-size: 24px;
         }
 
         .intro__author{
-            max-width: 288px;
             line-height: 34px;
             font-size: 24px;
         }
 
         .intro__paragraph{
-            max-width: 288px;
             line-height: 163%;
             font-size: 16px;
         }
