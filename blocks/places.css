@@ -81,9 +81,8 @@
 }
 
 .place__button{
-    height: max-content;
+    justify-self: flex-start;
     margin: 0;
-    width: max-content;
     background-image: linear-gradient(to right, #0278FE, #003A7B);
     box-shadow: 5px 5px 10px 0px #00000040;
     border-radius: 4px;
@@ -92,8 +91,10 @@
     padding-bottom: 13px;
     padding-left: 20px;
     gap: 10px;
+    text-decoration: none;
     
 
+    letter-spacing: -0.04em;
     color: white;
     font-weight: 600;
     font-size: 18px;
