@@ -82,6 +82,7 @@
 
 .place__button{
     justify-self: flex-start;
+    align-self: flex-start;
     margin: 0;
     background-image: linear-gradient(to right, #0278FE, #003A7B);
     box-shadow: 5px 5px 10px 0px #00000040;
