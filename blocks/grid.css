@@ -1,4 +1,4 @@
-.photo-grid{
+.grid-photo{
     max-width: 1184px;
     display: grid;
     margin: 0 auto;
@@ -7,6 +7,6 @@
     margin-bottom: 92px;
 }
 
-.photo-grid__item{
+.grid-photo__item{
     width: 100%;
 }
